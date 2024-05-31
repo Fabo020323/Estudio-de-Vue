@@ -25,9 +25,23 @@ Estilos
 
 Nota: Cuando se crea un componente es como estar haciendo una etiqueta
 
-Componentes y Estructuras(Composition Api y Option Api)
+2-Componentes y Estructuras(Composition Api y Option Api)
 
 Option Api: Es un objeto que tiene el contenido
 
 Composition Api: Es el mas usado y parecido a otros Frameworks
 Proporciona mayor control de la reactividad
+
+
+3-Directivas
+Funcionan en vue como atributos, que tienen la nomenclatura v-, modifica el Renderizadoen el virtual Dom
+Su estructura ser etiqueta html + directiva + nombre + modificador + valor 
+
+
+Renderizado condicional
+V-if: se usa cuando el cambio no ocurrira tanto
+v-show:  Cuando el cambio se realiza bastantes veces en la aplicacion
+v-bind:para los estilos
+
+Recorrido de estructura
+v-for: para las listas
