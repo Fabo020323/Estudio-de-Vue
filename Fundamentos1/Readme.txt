@@ -45,3 +45,6 @@ v-bind:para los estilos
 
 Recorrido de estructura
 v-for: para las listas
+
+5-Formularios, V-movel
+Snipper Generator app para crear nuestros propios snipers o atajos
