@@ -1,9 +1,14 @@
 <template>
-  <h1> Hola mundo</h1>
+  <div>
+    <h1> Lista</h1>
+    <PostContainer/>
+  </div>
+  
   
 </template>
 
 <script setup>
+import PostContainer from '../src/components/PostContainer.vue'
 
 </script>
 <style scoped>

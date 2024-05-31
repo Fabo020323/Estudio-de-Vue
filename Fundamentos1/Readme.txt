@@ -23,4 +23,10 @@ app.vue
 Estilos
 <style scoped> : El atributo scoped indica que los estilos que se apliquen solo se deben usar en ese componente
 
+Nota: Cuando se crea un componente es como estar haciendo una etiqueta
+
 Componentes y Estructuras(Composition Api y Option Api)
+
+Option Api: Es un objeto que tiene el contenido
+
+Composition Api: Es el mas usado y parecido a otros Frameworks
