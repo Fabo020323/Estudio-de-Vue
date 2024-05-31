@@ -30,3 +30,4 @@ Componentes y Estructuras(Composition Api y Option Api)
 Option Api: Es un objeto que tiene el contenido
 
 Composition Api: Es el mas usado y parecido a otros Frameworks
+Proporciona mayor control de la reactividad

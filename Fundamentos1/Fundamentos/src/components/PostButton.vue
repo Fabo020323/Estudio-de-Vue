@@ -1,7 +1,7 @@
 
 <template>
 <button class="class-Button">
-    Acceder
+    Eliminar
 </button>
 </template>
 <script setup>
