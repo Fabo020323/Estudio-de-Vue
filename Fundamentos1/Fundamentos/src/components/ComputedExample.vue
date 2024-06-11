@@ -1,9 +1,10 @@
 <template>
     <div>
+        <h1 v-modifiers.lg.red>Modificadores</h1>
         <h1 v-mi_directiva > Mi directiva</h1>
         <input type="text"  v-model="msg">
         <h1 v-mi_directiva_con_parametro="70">{{ msg }}</h1>
-        <h1>{{ reverse }}</h1>
+        <h1 v-con_argumentos:sm>{{ reverse }}</h1>
     </div>
 </template>
 
