@@ -46,10 +46,10 @@ v-bind:para los estilos
 Recorrido de estructura
 v-for: para las listas
 
-5-Formularios, V-movel
+4-Formularios, V-movel
 Snipper Generator app para crear nuestros propios snipers o atajos
 
-6-Comunicación Vertical y ciclo de vida
+5-Comunicación Vertical y ciclo de vida
         Comineza al ser llamado el componente de Vue
         El pimer ciclo al que se puede acceder es el beforeCreated que es antes de crear el Componentes
         El created que es despues que ya se creo(El virtual DOM aun no ha creado nada , no se ha 
@@ -68,3 +68,21 @@ Snipper Generator app para crear nuestros propios snipers o atajos
         -Comunicacion Vertical ascendente, esto se hace a traves de los emits, 
         En caso de que se desee modificar la informacion que se encuentra en modo lectura desde el hijo, ese hijo
         debe emitir al padre el cambio para que el padre lo realice
+
+6- Computed
+
+Permite realizar cambios en un elemento a traves de la refenrecia de otro(mal explicado)
+
+7-Directivas personalizadas
+ En el main.js por ahora, para poder usar esas directivas en todo la aplicacion, en el propio componente si se 
+ desea utilizarla solamente en el mismo
+
+ Para crearlas se hace del siguiente modo
+ app.directive('mi_directiva',{
+    beforeMount: (el,binding) =>{
+        el.style.fontSize = '70px'
+    }
+});
+
+donde el - es la etiqueta que se modificara
+binding es el parametro de entrada
